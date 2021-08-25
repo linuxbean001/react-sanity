@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { Modal } from 'react-bootstrap';
 import sanityClient from "../client.js";
 import BlockContent from "@sanity/block-content-to-react";
 import Moment from 'moment';
@@ -8,19 +7,9 @@ import '../assets/css/style.css';
 
 function Posts(props) {
 
-  const [modalShow, setModalShow] = useState(0);
-
   if (props.loading) {
     return <h1>Loading</h1>;
   }
-
-  const showModal = (value) => {
-    setModalShow(value);
-  };
-  const hideModal = (value) => {
-    setModalShow(0);
-  };
-
 
   return (
     <>

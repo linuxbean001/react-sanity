@@ -12,7 +12,7 @@ function Footer() {
          <Row>
             <Col className="d-flex justify-content-start">
                <div className="footerimage">
-                  <img src="https://www.arcadeagroup.com/a-footer.svg"></img>
+                  <img alt="footerimage" src="https://www.arcadeagroup.com/a-footer.svg"></img>
                </div>
             </Col>
             <Col md={6}>

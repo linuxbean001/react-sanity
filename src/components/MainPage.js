@@ -37,7 +37,7 @@ function MainPage() {
     <>
     <main>
         <header className="Hero Hero--philosophy">
-          <figure className="Hero__background"><Image fluid src={process.env.PUBLIC_URL+'/images/banner2.jpg'} alt=""/></figure>
+          <figure className="Hero__background"><Image fluid src={process.env.PUBLIC_URL+'/images/banner.jpg'} alt=""/></figure>
         </header>
     </main>
     <section className="blogsection">
